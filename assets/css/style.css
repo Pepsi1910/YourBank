@@ -1,0 +1,205 @@
+.hero{
+margin-top: 53px;
+}
+
+.hero-container{
+    display: flex;
+    gap: 120px;
+
+    width: 100%;
+    padding: 100px 297px 100px 162px;
+}
+
+.container__main{
+    width: 60%;
+}
+
+.title{
+    display: inline-flex;
+    padding: 10px 20px 10px 12px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 61px;
+    background: var(--grey-15, #262626);
+}
+
+.icon-check{
+    width: 24px;
+    height: 24px;
+}
+
+.title__paragraph{
+    color: var(--absolute-white);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.heading-title--style{
+    margin-top: 20px;
+}
+
+.heading-desc--style{
+    margin-top: 14px;
+}
+
+.container__main__btn{
+    margin-top: 50px;
+}
+
+.container__main__btn a{
+    display: inline-block;
+    padding: 18px 30px;
+    border-radius: 82px;
+
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.container__sub{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-image: url(../img/asfalt-light.png);
+    padding: 35px;
+}
+
+.container__sub_transaction{
+    height: fit-content;
+}
+
+.container__sub_transaction h4{
+    color: var(--absolute-white);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 17px;
+}
+
+.transaction{
+    position: relative;
+}
+
+.transaction__alert1{
+    top: 0px;
+    z-index: 3;
+}
+
+.transaction__alert2{
+    top: -14px;
+    padding: 0px 17px;   
+    z-index: 2; 
+    opacity: 70%;
+}
+
+.transaction__alert3{
+    top: -28px;
+    padding: 0px 35px;
+    z-index: 1; 
+    opacity: 60%;
+}
+
+.transaction__alert{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding: 14px 21px;
+    border-radius: 10px;
+    border: 1px solid var(--grey-15);
+    background: var(--grey-11);
+}
+
+.transaction__alert svg{
+    width: 21px;
+    height: 21px;
+
+    box-sizing:content-box;
+
+    padding: 9px;
+    border-radius: 46px;
+    background: var(--green-60, #CAFF33);
+}
+
+.transaction__infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.transaction__tile{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--absolute-white);
+    
+}
+
+.transaction__name{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--absolute-white);
+}
+
+.transaction__money{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31px;
+    color: var(--absolute-white);
+}
+
+.container__sub_Exchange{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container__sub_Exchange h4{
+    color: var(--absolute-white);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.exchange__infor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--grey-11);
+    border: 1px solid var(--grey-15);
+    border-radius: 10px;
+}
+
+.exchange__country{
+    padding: 17px;
+}
+
+.currency-unit{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.country_image{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--absolute-white);
+}
+
+.country__name{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: var(--white-90);
+    margin-top: 8px;
+}
+
+.exchange__money{
+    padding: 17px 26px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--absolute-white);
+}

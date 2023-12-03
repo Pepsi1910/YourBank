@@ -1,0 +1,72 @@
+:root{
+    --absolute-white: white;
+    --absolute-black: black;
+
+    --green-60: #CAFF33;
+    --green-65: #D1FF4C;
+    --green-70: #D8FF66;
+    --green-80: #E5FF99;
+    --green-90: #F2FFCC;
+    --green-95: #F8FFE5;
+    --green-97: #FBFFF0;
+    --green-99: #FEFFFA;
+
+    --white-90: #E4E4E7;
+    --white-95: #F1F1F3;
+    --white-97: #F7F7F8;
+    --white-99: #FCFCFD;
+
+    --grey-10: #191919;
+    --grey-11: #1C1C1C;
+    --grey-15: #262626;
+    --grey-20: #333333;
+    --grey-30: #4C4C4D;
+    --grey-35: #59595A;
+    --grey-40: #656567;
+    --grey-60: #98989A;
+    --grey-70: #B3B3B3;
+    --grey-75: #BFBFBF;
+}
+
+html, body{
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    background-color: var(--grey-10);
+}
+
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1596px;
+    margin: 0 auto;
+}
+
+.btn--green{
+    color: var(--absolute-black);
+    background-color: var(--green-60);
+}
+
+.btn--grey{
+    color: var(--absolute-white);
+}
+
+.heading-title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    color: var(--absolute-white);
+}
+
+.highlight-text{
+    color: var(--green-60);
+}
+
+.heading-desc{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: var(--white-90);
+}
